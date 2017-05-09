@@ -17,3 +17,5 @@ Please do not clone this repository directly.
 2. Learn how to make changes and commit to main repo.
 3. Learn how to setup ssh key.
 4. Setup 2-factor authentication on github account.
+
+2 new lines

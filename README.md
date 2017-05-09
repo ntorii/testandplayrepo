@@ -1,6 +1,6 @@
 # testandplayrepo
 
-Please do not clone this repository directly.
+Please do not clone this repository directly. Nah just do anything honestly. 
 
 ## Optional Setup steps:
 1. `Fork` this repository to create a copy on your github account.

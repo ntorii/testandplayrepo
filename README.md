@@ -13,5 +13,7 @@ Please do not clone this repository directly.
 2. Understand the above sentence.
 
 ## Recommended learnings
-Learn by doing. 
-Learn how to make changes and commit to main repo.
+1. Learn by doing. 
+2. Learn how to make changes and commit to main repo.
+3. Learn how to setup ssh key.
+4. Setup 2-factor authentication on github account.

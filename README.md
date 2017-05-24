@@ -71,6 +71,7 @@ To check which branch we are currently working on, run `git branch`. Whatever ha
 
 
 To add a new branch, use `git branch <new-branch-name>`. To switch to that new branch, do `git checkout <branch-name>`. 
+
 ![Alt text](/img/git_branch_new_checkout.png?raw=true "git new checout")
 
 Now let's go back to the concept of `git push`. Since we are now dealing with more than 1 remote point (origin and ogorigin) and we have multiple branches on our local environment and on the online repo, we need to be careful about what git push is pushing, and where it is pushing it.
@@ -78,6 +79,7 @@ Now let's go back to the concept of `git push`. Since we are now dealing with mo
 For a more descriptive push, we use `git push <remote-name-url> <branch-name>`. 
 
 Here, I'm explictly saying that I want to push to my forked repo and I'm pushing the contents of my current branch which is new-branch.
+
 ![Alt text](/img/git_push_advanced.png?raw=true "git advanced push")
 
 
@@ -92,37 +94,14 @@ https://stackoverflow.com/questions/8588768/git-push-username-password-how-to-av
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Optional Setup steps:
 1. `Fork` this repository to create a copy on your github account.
 2. `git clone` your forked repo into your terminal
 3. Use `git remote -v` to check your remote points. You should have the url of your forked copy, not the original of ntorii.
 4. Do anything you want at this point.
 
-## Alternate Setup:
-1. Do anything you want at this point. (your changes will be prone to being reverted by owner of the main repo)
-2. Understand the above sentence.
-
 ## Recommended learnings
 1. Learn by doing. 
 2. Learn how to make changes and commit to main repo.
 3. Learn how to setup ssh key.
 4. Setup 2-factor authentication on github account.
-
-2 new lines
-another line daoh

@@ -2,6 +2,28 @@
 
 Please do not clone this repository directly. Nah just do anything honestly. 
 
+## Github commands
+
+`git status` to see any changed files.
+![Alt text](/tutorial/git_status.jpg?raw=true "git status")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Optional Setup steps:
 1. `Fork` this repository to create a copy on your github account.
 2. `git clone` your forked repo into your terminal

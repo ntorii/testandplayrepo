@@ -1,8 +1,24 @@
 # testandplayrepo
 
-Please do not clone this repository directly. Nah just do anything honestly. 
+**Please do not clone this repository directly. Fork it and `git clone` the forked copy. Look up how to fork a repo.**
 
-## Github commands
+## Terminal tips
+For mac, we use Terminal.
+For windows, you need to install cygwin. (http://www.mcclean-cooper.com/valentino/cygwin_install/)
+
+I'll list some here that you will probably need to know:
+* `ls` lets you see the contents in the current directory
+* `ls -lah` lists the contents in the current directory with file permissions and more information.
+* `cd <directory-name>` goes into a directory
+* `cd ..` goes back one directory
+* `cd ../directory-1/directory-2` goes back one directory, then goes into the directory-1 folder and then directory-2. Can mix n' match.
+* `cd ` goes to root (the top parent folder)
+* `pwd` shows you the complete path to your current directory (useful when you've lost track where you are)
+
+Anything else you don't know how to do, just look it up.
+
+
+## Github tutorial
 
 `git status` to see any changed files.
 ![Alt text](/img/git_status.png?raw=true "git status")
@@ -35,7 +51,21 @@ Above, there weren't any changes in the ntorii original repo, so there was nothi
 To check which branch we are currently working on, run `git branch`. Whatever has the star and green text beside it, is the branch we are currently working on.
 
 
-To add a new branch, use `git branch <new-branch-name>`. To switch to that new branch, do `git checkout <branch-name>`.
+To add a new branch, use `git branch <new-branch-name>`. To switch to that new branch, do `git checkout <branch-name>`. 
+
+Now let's go back to the concept of `git push`. Since we are now dealing with more than 1 remote point (origin and ogorigin) and we have multiple branches on our local environment and on the online repo, we need to be careful about what git push is pushing, and where it is pushing it.
+For a more descriptive push, we use `git push <remote-name-url> <branch-name>`. 
+Here, I'm explictly saying that I want to push to my forked repo and I'm pushing the contents of my current branch which is new-branch.
+
+Check the actual contents on github.com to make sure the changes were pushed.
+
+Final notes: 
+1. If you don't know how to do something, look it up. If you're scared, just ask. 
+2. Are you getting annoyed with the friken type username and password stuff you gotta do everytime you push? Then look up how to setup ssh key with your github repo. 
+https://stackoverflow.com/questions/8588768/git-push-username-password-how-to-avoid
+
+
+
 
 
 

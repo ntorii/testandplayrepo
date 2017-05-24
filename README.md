@@ -23,6 +23,8 @@ Anything else you don't know how to do, just look it up.
 
 ## Github tutorial
 
+**WHEN WORKING ON THE KENTORII.COM REPO OR THE GAMEDEV REPO, MAKE SURE YOU PUSH A BRANCH THAT IS NOT DEVELOP OR MASTER. MAKE A NEW BRANCH that branches off of develop AND WORK/PUSH ON THAT. IT'S OK TO PUSH TO MASTER FOR THIS REPO THOUGH. IT'S MERELY A TEST REPO FOR LEARNING**
+
 `git clone <repo-link>` clones the remote repository to your local computer. Look up how to clone github repo.
 
 `git status` to see any changed files.

@@ -6,10 +6,7 @@
 For mac, we use Terminal.
 For windows, you need to install cygwin. (http://www.mcclean-cooper.com/valentino/cygwin_install/)
 
-DO EXECUTE ANY COMMAND THAT LOOKS LIKE THIS: `rm -rf *`.
-
-THIS WILL FORCEFULLY DELETE EVERYTHING ON YOUR COMPUTER. DON'T DO IT.
-PROCEED WITH CAUTION WHEN YOU SEE SOMETHING LIKE THIS. 
+**DO EXECUTE ANY COMMAND THAT LOOKS LIKE THIS: `rm -rf *`.THIS WILL FORCEFULLY DELETE EVERYTHING ON YOUR COMPUTER. DON'T DO IT. PROCEED WITH CAUTION WHEN YOU SEE SOMETHING LIKE THIS.**
 
 
 I'll list some here that you will probably need to know:
